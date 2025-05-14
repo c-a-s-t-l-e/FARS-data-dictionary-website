@@ -1,0 +1,10 @@
+---
+title: What's in the RACE dataset?
+definition: Overview of the what's in the RACE dataset.
+---
+
+| Long Form Data Name | Data Element |
+| ------------------- | ------------ |
+| Race                | [[RACE]]     |
+| Multiple Races      | [[MULTRACE]] |
+| Order Listed        | [[ORDER]]    |

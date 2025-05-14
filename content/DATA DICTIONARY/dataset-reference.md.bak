@@ -1,0 +1,38 @@
+---
+title: Which datasets are in FARS?
+description: A table of all the current datasets included in FARS.
+---
+This table is based on the schema included in the FARS Analytical User Manual:
+
+| Reference Index | Data File Level   | Record Type                                          | Data File                |
+| --------------- | ----------------- | ---------------------------------------------------- | ------------------------ |
+| 1               | [[Crash Level]]   | [[Motor Vehicle Crashes]]                            | [[ACCIDENT]]             |
+| 2               | [[Crash Level]]   | [[Crash Details]]                                    | [[WEATHER (Dataset)]]    |
+| 3               | [[Crash Level]]   | [[Crash Details]]                                    | [[CRASHRF (Dataset)]]    |
+| 4               | [[Event Level]]   | [[Crash Events]]                                     | [[CEVENT]]               |
+| 5               | [[Event Level]]   | [[Vehicle Events]]                                   | [[VEVENT]]               |
+| 6               | [[Event Level]]   | [[Vehicle Events]]                                   | [[VSOE]]                 |
+| 7               | [[Vehicle Level]] | [[Motor Vehicles in Transport]]                      | [[VEHICLE]]              |
+| 8               | [[Vehicle Level]] | [[Parked - Working Motor Vehicles]]                  | [[PARKWORK]]             |
+| 9               | [[Vehicle Level]] | [[VIN Decoded Vehicle]]                              | [[VPICDECODE]]           |
+| 10              | [[Vehicle Level]] | [[VIN Decoded Vehicle]]                              | [[VPICTRAILERDECODE]]    |
+| 11              | [[Vehicle Level]] | [[Motor Vehicle in Transport Details]]               | [[DAMAGE (Dataset)]]     |
+| 12              | [[Vehicle Level]] | [[Motor Vehicle in Transport Details]]               | [[DISTRACT]]             |
+| 13              | [[Vehicle Level]] | [[Motor Vehicle in Transport Details]]               | [[DRIMPAIR (Dataset)]]   |
+| 14              | [[Vehicle Level]] | [[Motor Vehicle in Transport Details]]               | [[FACTOR]]               |
+| 15              | [[Vehicle Level]] | [[Motor Vehicle in Transport Details]]               | [[MANEUVER (Dataset)]]   |
+| 16              | [[Vehicle Level]] | [[Motor Vehicle in Transport Details]]               | [[VIOLATN]]              |
+| 17              | [[Vehicle Level]] | [[Motor Vehicle in Transport Details]]               | [[VISION (Dataset)]]     |
+| 18              | [[Vehicle Level]] | [[Motor Vehicle in Transport Details]]               | [[VEHICLESF (Dataset)]]  |
+| 19              | [[Vehicle Level]] | [[Motor Vehicle in Transport Details]]               | [[DRIVERRF (Dataset)]]   |
+| 20              | [[Vehicle Level]] | [[Parked - Working Motor Vehicles Details]]          | [[PVEHICLESF (Dataset)]] |
+| 21              | [[Person Level]]  | [[Motorists & Non-Motorists]]                        | [[PERSON]]               |
+| 22              | [[Person Level]]  | [[Non-Motorists]]                                    | [[PBTYPE]]               |
+| 23              | [[Person Level]]  | [[Non-Motorists]]                                    | [[SAFETYEQ]]             |
+| 24              | [[Person Level]]  | [[Motorist & Non-Motorist Details]]                  | [[DRUGS]]                |
+| 25              | [[Person Level]]  | [[Motorist & Non-Motorist Details]]                  | [[RACE (Dataset)]]       |
+| 26              | [[Person Level]]  | [[Motorist & Non-Motorist Details]]                  | [[PERSONRF (Dataset)]]   |
+| 27              | [[Person Level]]  | [[DATA DICTIONARY/Record Type/Non-Motorist Details]] | [[NMCRASH]]              |
+| 28              | [[Person Level]]  | [[DATA DICTIONARY/Record Type/Non-Motorist Details]] | [[NMIMPAIR (Dataset)]]   |
+| 29              | [[Person Level]]  | [[DATA DICTIONARY/Record Type/Non-Motorist Details]] | [[NMPRIOR]]              |
+| 30              | [[Person Level]]  | [[DATA DICTIONARY/Record Type/Non-Motorist Details]] | [[NMDISTRACT (Dataset)]] |

@@ -1,0 +1,9 @@
+---
+title: What's in the DRUGS dataset?
+definition: Overview of the what's in the DRUGS dataset.
+---
+| Long Form Data Name | Data Element |
+| ------------------- | ------------ |
+| Drug Specimen       | [[DRUGSPEC]] |
+| Drug Test Result    | [[DRUGRES]]  |
+
