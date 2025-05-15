@@ -19,6 +19,7 @@ export type ContentDetails = {
   richContent?: string
   date?: Date
   description?: string
+  // mod: add frontmatter
   frontmatter?: QuartzPluginData["frontmatter"]
 }
 
@@ -116,7 +117,8 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
               : undefined,
             date: date,
             description: file.data.description ?? "",
-            frontmatter: file.data.frontmatter
+            // mod: add the original frontmatter as whole
+            frontmatter: file.data.frontmatter,
           })
         }
       }
