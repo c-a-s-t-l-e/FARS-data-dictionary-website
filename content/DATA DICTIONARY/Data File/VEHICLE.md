@@ -15,6 +15,9 @@ Parked and working vehicle information is in the [[PARKWORK]] data file.
 
 | Long Form Data Name                                         | Data Element      |
 | ----------------------------------------------------------- | ----------------- |
+| State Number                                                | [[STATE]]         |
+| Consecutive Number                                          | [[ST_CASE]]       |
+| Vehicle Number                                              | [[VEH_NO]]        |
 | Number of Occupants                                         | [[NUMOCCS]]       |
 | Unit Type                                                   | [[UNITTYPE]]      |
 | Hit-and-Run                                                 | [[HIT_RUN]]       |
