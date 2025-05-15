@@ -72,6 +72,29 @@ export const defaultListPageLayout: PageLayout = {
   right: [],
 }
 
+// sorting just folders
+export const sortFn: Options["sortFn"] = (a, b) => {
+  // Only sort folders by folderOrder, files stay as is
+  if (a.isFolder && b.isFolder) {
+    const orderA = a.data?.frontmatter?.folderOrder ?? Number.MAX_SAFE_INTEGER;
+    const orderB = b.data?.frontmatter?.folderOrder ?? Number.MAX_SAFE_INTEGER;
+    return orderA - orderB;
+  }
+  
+  // If one is folder and the other is file, keep folders first
+  if (a.isFolder && !b.isFolder) {
+    return -1; // folder before file
+  }
+  if (!a.isFolder && b.isFolder) {
+    return 1; // file after folder
+  }
+  
+  // If both are files, keep original order (or sort alphabetically if you want)
+  return 0;
+}
+
+// sorting folders and notes
+/*
 export const sortFn: Options["sortFn"] = (a, b) => {
   const orderA = a.isFolder
     ? a.data?.frontmatter?.folderOrder as number | undefined
@@ -95,4 +118,4 @@ export const sortFn: Options["sortFn"] = (a, b) => {
 
   return a.isFolder ? -1 : 1; // folders first
 }
-
+*/
