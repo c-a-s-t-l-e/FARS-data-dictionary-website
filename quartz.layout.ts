@@ -5,7 +5,11 @@ import * as Component from "./quartz/components"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
-  head: Component.Head(),
+  head: Component.Head({
+    custom: `
+      <link rel="icon" href="https://github.com/c-a-s-t-l-e/FARS-data-dictionary-website/blob/8b133d856b75fb9ebe4c32e1eb9f39a761685538/quartz/static/icon.png">
+    `,
+  }),
   header: [],
   afterBody: [],
   footer: Component.Footer({
