@@ -19,9 +19,9 @@ Data users are strongly advised to consult the annual FARS/CRSS Coding and Valid
 
 | Long Form Data Name                                      | Data Element       |
 | -------------------------------------------------------- | ------------------ |
-| State Number                                             | [[STATE]]          |
-| Consecutive Number                                       | [[ST_CASE]]        |
-| Vehicle Number                                           | [[VEH_NO]]         |
+| State Number                                             | [[STATE 1]]          |
+| Consecutive Number                                       | [[ST_CASE 1]]        |
+| Vehicle Number                                           | [[VEH_NO 1]]         |
 | Trailer Vehicle Identification Number                    | [[PTRLR3VIN]]      |
 | Trailer Gross Vehicle Weight Rating (GVWR)               | [[PTRLR1GVWR]]     |
 | Trailer Gross Vehicle Weight Rating (GVWR)               | [[PTRLR2GVWR]]     |
